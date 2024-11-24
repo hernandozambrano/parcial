@@ -87,6 +87,20 @@
             </div>
         </div>
     </section>
+    <section id="experience">
+        <p class="titulo">Mi Experiencia</p>
+        <div class="contenedor-experiencia">
+         
+        </div>
+    </section>
+    <section id="studies">
+        <p class="titulo">Mis Estudios</p>
+        <div class="contenedor-estudios">
+        
+        </div>
+    </section>
+
+
     <section id="skills" class="contenedor-skills">
         <p class="titulo">MIS FORTALEZAS</p>
         <div class="skill">

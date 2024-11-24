@@ -27,23 +27,37 @@ if (!isset($_SESSION["usu_id"]) || !isset($_SESSION["nombre"])) {
         </li>
 
         <!-- Opciones del menú -->
-        <li class="nav-header">EXAMPLES</li>
         <li class="nav-item">
-            <a href="../widgets.html" class="nav-link">
-                <i class="nav-icon fas fa-th"></i>
-                <p>Usuarios</p>
-            </a>
-        </li>
+                <a href="usuario.php" class="nav-link">
+                  <i class="nav-icon fas fa-users"></i>
+                  <p>
+                    USUARIO
+                </p>
+                </a>
+              </li>
         <li class="nav-item">
-            <a href="../widgets.html" class="nav-link">
+            <a href="menu.php" class="nav-link">
                 <i class="nav-icon fas fa-th"></i>
                 <p>Menu</p>
             </a>
         </li>
         <li class="nav-item">
-            <a href="../widgets.html" class="nav-link">
+            <a href="Social_Media.php" class="nav-link">
                 <i class="nav-icon fas fa-user"></i>
                 <p>Social Media</p>
+            </a>
+        </li>
+        </li>
+        <li class="nav-item">
+            <a href="experiencia.php" class="nav-link">
+                <i class="nav-icon fas fa-user"></i>
+                <p>Experiencia</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="estudios.php" class="nav-link">
+                <i class="nav-icon fas fa-user"></i>
+                <p>Estudios</p>
             </a>
         </li>
 

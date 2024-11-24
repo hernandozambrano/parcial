@@ -23,6 +23,13 @@ class Conectar {
         }
     }
 
+    public function getConexion() {
+        if (!$this->dbh) {
+            $this->Conexion();
+        }
+        return $this->dbh;
+    }
+
    public function set_names() {
         // Configurar el conjunto de caracteres a UTF-8
         return $this->dbh->query("SET NAMES 'utf8'");

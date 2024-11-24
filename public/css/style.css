@@ -416,3 +416,38 @@ header .icons  #menubars{
         background:var(--texto);
     }
 }
+
+
+/* Estilos para la sección de experiencia */
+#experience, #studies {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#experience .contenedor-experiencia, 
+#studies .contenedor-estudios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card-experiencia, .card-estudio {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card-experiencia h3, .card-estudio h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.card-experiencia p, .card-estudio p {
+    font-size: 14px;
+    color: #555;
+}

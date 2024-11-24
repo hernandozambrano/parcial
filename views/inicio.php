@@ -1,6 +1,8 @@
 <?php
 // Define la URL base de tu proyecto
-define("BASE_URL", "/PaginaHZ/views/");
+if (!defined("BASE_URL")) {
+    define("BASE_URL", "/PaginaHZ/views/");
+  }
 
 // Llama al archivo de conexión
 require_once("../config/conexion.php");

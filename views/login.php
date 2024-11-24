@@ -103,7 +103,7 @@ if (isset($_POST["enviar"]) && $_POST["enviar"] == "si") {
         </div>
 
         <p class="mb-1">
-          <a href="#">Olvidé mi contraseña</a>
+          <a href="/PaginaHZ/views/paswordReset.php">Olvidé mi contraseña</a>
         </p>
         <p class="mb-0">
           <a href="#" class="text-center">Registrar una nueva membresía</a>

@@ -157,3 +157,38 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2024-11-10 18:02:34
+
+
+CREATE TABLE experiencia (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    empresa VARCHAR(255) NOT NULL, 
+    puesto VARCHAR(255) NOT NULL, 
+    fecha_inicio DATE NOT NULL, 
+    fecha_fin DATE DEFAULT NULL, 
+    descripcion TEXT DEFAULT NULL
+);
+
+
+CREATE TABLE estudios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL, 
+    institucion VARCHAR(255) NOT NULL, 
+    fecha_inicio DATE NOT NULL, 
+    fecha_fin DATE DEFAULT NULL,
+    descripcion TEXT DEFAULT NULL
+);
+
+
+INSERT INTO menu (opcion, url) VALUES 
+('HOME', '#home'),
+('ABOUT', '#about'),
+('SERVICES', '#services'),
+('SKILLS', '#skills'),
+('CONTACT US', '#contactus');
+
+
+
+INSERT INTO social_media (socmed_url, socmed_icono, est) VALUES 
+( 'https://linkedin.com/in/hernandozambrano', 'bxl-linkedin', 1),
+( 'https://github.com/hernandozambrano', 'bxl-github', 1),
+( 'https://wa.me/573137699271', 'bxl-whatsapp', 1);
